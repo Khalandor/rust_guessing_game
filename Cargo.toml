@@ -1,0 +1,13 @@
+[package]
+name = "rust_guessing_game"
+version = "0.1.0"
+authors = ["Tamas Boczan"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# shorthand for ^0.5.5, which means “any version that has a public API compatible with version 0.5.5.”
+# When building, creates Cargo.lock file, writes dependency versions in it. Cargo.lock makes the build reproducable
+# "cargo update" ignores the lock file and upgrades dependencies
+rand = "0.6.0"
