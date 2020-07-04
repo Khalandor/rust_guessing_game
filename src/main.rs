@@ -1,5 +1,5 @@
 // brings io and Rng traits into scope
-// brings the ordering enum type into scope
+// brings the Ordering enum type into scope
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
